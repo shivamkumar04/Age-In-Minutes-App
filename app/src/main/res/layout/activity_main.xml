@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/backgroundcolor"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/calculateyour"
+        android:textColor="@color/textcolor"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/agetextbackgroundcolor"
+        android:padding="10dp"
+        android:text="@string/age"
+        android:textColor="@color/agetextcolor"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/inminutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/inminutes"
+        android:textColor="@color/textcolor"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/buttontextbackground"
+        android:text="@string/selectdate"
+        android:textColor="@color/buttontext"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvselectdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#844046"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selecteddate"
+        android:textColor="#878787"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/tvselectdateinminutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#844046"
+        android:layout_marginTop="20sp"
+        android:textSize="35sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ageinminutes"
+        android:textColor="#878787"
+        android:textSize="18sp" />
+
+
+
+
+</LinearLayout>
